@@ -26,7 +26,7 @@ public class DcMotorPractice extends OpMode {
         else if (gamepad1.b){
             bench.setMotorZeroBehavior(DcMotor.ZeroPowerBehavior.FLOAT);
         }
-        
+
         telemetry.addData("Motor Revs", bench.getMotorRevs());
     }
 }
